@@ -20,6 +20,7 @@ RUN \
   echo 'session.save_path = "/tmp"' >> /etc/php5/apache2/php.ini && \
   sed -ri -e "s/^allow_url_include.*/allow_url_include = On/" /etc/php5/apache2/php.ini && \
   chmod a+w /app/hackable/uploads && \
+  chmod a+r /app/hackable/uploads && \
   chmod a+w /app/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt
 
 EXPOSE 80 3306
