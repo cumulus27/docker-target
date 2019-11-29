@@ -2,7 +2,7 @@ FROM tutum/lamp:latest
 MAINTAINER Zhao Py <zhaopy4721@outlook.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV VERSION 2.2.1
+ENV VERSION 2.3
 
 # Preparation
 RUN \
